@@ -1,0 +1,96 @@
+*{
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba( 71, 147, 227, 1);
+}
+
+.regcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 35%;
+    background-color: #324960;
+    border-radius: 60px;
+    border: 20px solid #4FC3A1;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.registration-heading {
+    font-size: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-family:Playfair Display;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+label{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4FC3A1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4FC3A1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+input[type="submit"] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4FC3A1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+input[type="email"], input[type="password"],input[type="tel"],input[type="text"] {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+
+    font-family: "Playfair Display", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.item {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
